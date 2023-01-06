@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:textColor="@color/white"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:backgroundTint="#2F4F4F"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="419dp"
+        android:onClick="Pindah"
+        android:text="Webview" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="362dp"
+        android:backgroundTint="#6495ED"
+        android:onClick="Pindah2"
+        android:text="Phon call" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="48dp"
+        android:backgroundTint="#2F4F4F"
+        android:layout_marginBottom="307dp"
+        android:onClick="Pindah3"
+        android:text="Json" />
+
+    <TextView
+        android:layout_width="346dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="485dp"
+        android:text="ALIZA NUR AMALIA"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+</RelativeLayout>
