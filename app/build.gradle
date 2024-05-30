@@ -14,6 +14,34 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    plugins {
+        id 'com.android.application'
+    }
+        android {
+            namespace 'com.example.qrfungsi'
+            compileSdk 32
+
+            defaultConfig {
+                applicationId "com.example.qrfungsi"
+                minSdk 21
+                targetSdk 31
+                versionCode 1
+                versionName "1.0'
+                testInstrumentalionRunner 'androidx.test.runner.AndroidUnitRunner"
+            plugins {
+                id 'com.android.aplication'
+            }
+                android {
+                    namespace 'com.example.qrfungsi"
+                    minSdk 21
+                    targetSdk 31
+                    versionCode 1
+                    versionName "1.0"
+                    testInstrumentalionRunner 'androidx.test.runner.AndroidUnitRunner"
+                    plugins {
+id 'com.android.aplication'
+                        android {
+                            namespace 
     }
 
     buildTypes {
