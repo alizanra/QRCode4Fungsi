@@ -40,3 +40,19 @@ pluginManagement {
 
     }
 }
+dependenencyResolutionManagement {
+    repositoriesMode.Set (RepositoriesMode.FAIL_ON_PROJECT-REPOS)
+    repositories {
+        google()
+        mavenCentral()
+
+    }
+}
+rootProject.name = "QRFungsi"
+include ':app"
+pluginManagement {
+    repositories {
+        gradlePluginsPortal()
+        google()
+        mavenCentral()
+        
